@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NYC School District Area</title>
+	<meta name= "viewpoint" content = "initial-scale =1.0">
+	<meta charset = "utf-8">
+	<style>
+		#map{
+			height: 100%;
+			width: 100%;
+		}
+		
+		html, body {
+        height: 90%;
+        margin: 0;
+        padding: 0;
+      }
+      
+    }
+	</style>
+	<style link rel="stylesheet" type="text/css" href="style.css"> </style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>	
+</head>
+
+<body>
+	<div id="map"></div>	
+	<div id ="info-box"></div>
+
+	<div class= 'panel'>
+		<!--<div class = 'searchbox'>
+			<input type='number' min='1' max = '32'class='search'>
+		</div>	-->
+		<div class = 'wrapper'>
+			<!--<button class ='go'>Search NYC School District</button>-->
+
+		</div>		
+	</div>
+
+	<script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBhTM-i9acM2-ZsQFpwlwjzZ1Wi2kHal-c&callback=initMap"
+		async defer> </script>
+	<script type="text/javascript" src="app.js"></script>
+
+
+</body>
+</html>
